@@ -1,10 +1,14 @@
 {
   "compilerOptions": {
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "baseUrl": "src",
     "outDir": "./dist",
     "module": "CommonJS",
     "target": "ES2019",
     "esModuleInterop": true,
     "allowJs": true
   },
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
